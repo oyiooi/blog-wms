@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "downlevelIteration": true,
+      "lib": [
+        "es5",
+        "es6",
+        "ES7",
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+    },
+  }
