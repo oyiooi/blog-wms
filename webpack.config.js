@@ -60,6 +60,13 @@ module.exports={
                 viewport: 'width=device-width;initial-scale:1'
             },
             title: 'WMS',
+            templateContent: `
+                <html>
+                <body>
+                    <div id='root'></div>
+                </body>
+                </html>
+            `,
             chunks: ['main'],
             filename: 'index.html',
         }),
